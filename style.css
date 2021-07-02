@@ -1,0 +1,117 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: rgb(202, 185, 248);
+  font-size: 20px; 
+  text-align: center;
+
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: rgb(138, 40, 113);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px; 
+  padding: 30px;
+}
+
+h2 {
+  padding: 10px;
+  padding-top: 20px;
+  color: rgb(131, 80, 101);
+  text-align: center;
+}
+
+p {
+  padding: 15px;
+  margin-left: 65px;
+  margin-right: 65px;
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 400px;
+  max-height: 300px;
+  border: 10px solid rgb(255, 233, 133);
+  padding: 5px;
+}
+/* STYLE NAV BAR */
+nav {
+  padding-bottom: 40px;
+  text-align: center;
+
+}
+ul {
+  list-style-type: none;
+  background-color: #5ddfdf;
+  overflow: hidden;
+  padding: 1em;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: rgb(255, 254, 239);
+  font-size: 1.3em;
+  padding: 1em; 
+}
+li a:hover {
+  background-color: #a4e9e9;}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+/* fact generator */ 
+main {
+  border: 5px solid rgb(255, 233, 133);
+  padding: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+#myButton {
+  padding: 5px;
+  background-color: #a7f1f1;
+  text-align: center;
+
+}
+
+/* take action page */
+.question {
+  display: flex;
+  margin-top: 2em;
+  text-align: center;
+}
+  
+.answer-choice {
+  margin: 5px;
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 14em;
+  width: 24em;
+  text-align: center;
+  display: block;
+  margin-left: 70px;
+  margin-right: 40px;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px;
+  background-color: rgb(174, 247, 247);
+}
