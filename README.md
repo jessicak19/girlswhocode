@@ -1,4 +1,5 @@
 # Activist Toolkit Sample Project
+# Girls Who Code Web Dev - Disability Pride Month Website 
 
 This is a place for you to start building your activist toolkit!
 
